@@ -1,0 +1,54 @@
+.banner {
+  height: 800px;
+  background-image: url("img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+body {
+    background-color: #f0f0f0;
+}
+
+#link { color: black;}
+.banner h1 {
+  position: absolute;
+  top: 20%;
+  left: 20% ;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  color: white;
+  background: transparent;
+  font-family: Montserrat,sans-serif;
+  font-size: 60px;
+}
+.slogan {text-align: center; width: 100%;}
+.row {display: flex; flex-wrap: wrap; max-width: 100%; background-color: lightgrey;}
+.block_3 {flex: 0 0 auto; width: 30%; margin: 10px;}
+.block_4 {font-size:170% ;flex: 0 0 auto; width: 40%; margin: 10px;}
+.cell_img1 {display:block; margin-right: auto ;}
+.cell_img2 {display:block; margin-left: auto ;}
+.cell_text1 {font-size:150%;}
+.cell_text2 {font-size:150%;}
+.cell_text3  {font-size:110%; text-align: center ; }
+.menu {color:white;font-size:120%;background-color: #333333; text-align: right;}
+.cell {text-align: justify; padding: 1.5em;}
+footer {background-color: lightgrey; margin: 1px; padding: 10px; white-space: nowrap;}
+.link1  {color: black; margin: 10px ;}
+.link2  {color: black; margin: 5px 	900px ;}
+.link3  {font-size:110% ;color: black; text-align: center;}
+.img1 {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;      
+}
+.image-row {
+  display: flex;
+  flex-direction: row; 
+  gap: 30px;
+  align-items: center; 
+}
+
+.image-row img {
+  max-width: 900px; 
+  height: auto; 	
+}
